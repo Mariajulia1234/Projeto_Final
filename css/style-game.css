@@ -3,7 +3,63 @@
 
 /* h1{} */
     
+.car-card {
+    width: 300px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
 
+.car-img img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.car-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.car-info {
+    font-size: 14px;
+    color: #444;
+    margin: 0 15px 10px 15px;
+}
+
+.car-details {
+    font-size: 14px;
+    color: #666;
+    margin: 0 15px 10px 15px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 0 15px 20px 15px;
+}
+
+.btn-more {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    padding: 12px;
+    background: #0d1b35;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-more:hover {
+    background: #102246;
+}
 
 
 body {
@@ -15,9 +71,13 @@ font-family: Arial, sans-serif;
 background: #f5f5f5;
 }
 
+img{width: 300px;
+  border-radius: 200px;
+  border: #000000;
+};
 
 header {
-background: #0a3d62;
+background: #070a0c;
 color: rgb(0, 0, 0);
 padding: 20px;
 text-align: center;
@@ -44,7 +104,7 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0, 3);
 
 /* cabeçalho */
 nav {
-background: #309a9c;
+background: #9bb2b3;
 display: flex;
 justify-content: center;
 gap: 50px;
@@ -52,6 +112,7 @@ padding: 12px;
 
  
 }
+
 
 .filtros {
 padding: 20px;
@@ -64,6 +125,9 @@ margin-top: 10px;
 border-bottom: 2px solid #ddd;
  
 }
+
+
+/*  */
 
 nav a {
 color: white;
